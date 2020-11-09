@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: red;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.links {
+    color: black;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 20px;
+    background: white;
+}
+
+.links:hover {
+    background-color: lime;
+}
+
+.menu {
+    z-index: 10;
+    list-style: none;
+    font-family: 'Grenze Gotisch', cursive;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: crimson;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#sachin {
+    transition: transform .2s;
+    transform: scale(0.9);
+}
+
+#sachin:hover {
+    transform: scale(0.8);
+}
